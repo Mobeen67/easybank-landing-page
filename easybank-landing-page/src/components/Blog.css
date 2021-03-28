@@ -1,0 +1,71 @@
+.blog {
+    place-items: center;
+    padding: 4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.blog-head {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.thumbnail {
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 1em;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 0.5em;
+}
+.thumb-img {
+    width: 100%;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+.blog-txt {
+    padding: 2rem;
+}
+.blog-head {
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+}
+h5 {
+    font-size: 0.8rem;
+    color: hsl(233, 8%, 62%);
+    font-weight: 400;
+}
+h4 {
+    color: hsl(233, 26%, 24%);
+    font-weight: 400;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+h4:hover {
+    color: hsl(136, 65%, 51%);
+}
+.thumb-txt {
+    color: hsl(233, 8%, 62%);
+    font-weight: 400;
+    margin-top: -0.8rem;
+}
+@media screen and (min-width: 760px)  {
+.blog-head {
+    margin-right: 27.6em;
+}
+  .thumbnail-container {
+      display: flex;
+      flex-direction: row;
+      align-self: center;
+  }
+  .contact-Icons {
+      margin-top: 1.5rem;
+  }
+  .thumbnail {
+      margin-right: 1rem;
+      width: 16.3rem;
+  }
+  .blog-txt {
+      padding: 1rem;
+  }
+  .imgone {
+      height: 11.89rem;
+  }
+}

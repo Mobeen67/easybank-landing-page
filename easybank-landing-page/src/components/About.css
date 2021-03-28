@@ -1,0 +1,52 @@
+.about {
+    padding: 3rem 1.5rem;
+    place-items: center;
+    text-align: center;
+    background-color:  hsl(220, 16%, 96%);
+}
+.about-content {
+    margin-top: 3rem;
+}
+.about-head {
+    font-weight: 400;
+}
+.about-para {
+    color: hsl(233, 8%, 62%);
+    font-size: 0.9rem;
+}
+.card-head {
+    font-weight: 300;
+}
+@media screen and (min-width: 760px)  {
+    .about {
+        padding: 4.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        display: block;
+        z-index: -999;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .about-head {
+        font-weight: 300;
+        color: hsl(233, 26%, 24%);
+    }
+    .aboutt-para {
+        width: 45vw;
+        color: hsl(233, 8%, 62%);
+    }
+    .about--cards {
+        width: 20vw;
+    }
+    .card-head {
+        font-size: 1.3rem;
+        color: hsl(233, 26%, 24%);
+    }
+    .about-para {
+        width: 18vw;
+    }
+}
